@@ -1,0 +1,21 @@
+h1 {
+    font-size: 350%;
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+}
+.open {
+    width: 25%;
+    text-align: left;
+    font-size: 125%;
+    margin-left: 50%;
+    margin-top: -28%;
+}
+.taftpicture {
+    border-radius: 10px;
+    margin-left: 23%;
+    margin-top: 2%;
+}

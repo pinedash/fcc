@@ -8,18 +8,19 @@
     <title>Coding Survey</title>
 </head>
 <body>
+<form action="#" id="survey-form">
 <div>
     <div>
-        <h1>Sign Up</h1>
-        <p>Make A New Account</p>
+        <h1 id="title">Sign Up</h1>
+        <p id="description">Make A New Account</p>
     </div>
     <div>
-        <h2>Name</h2>
-        <input type="text" placeholder="enter name">
+        <h2 id="name">Name</h2>
+        <input id="name-label" type="text" placeholder="enter name">
     </div>
     <div>
-        <h2>E-Mail</h2>
-        <input type="text" placeholder="enter e-mail">
+        <h2 id="email">E-Mail</h2>
+        <input id="email-label" type="email" placeholder="enter e-mail">
     </div>
     <div>
         <h2>Experience</h2>
@@ -42,12 +43,17 @@
         <label for="Vue"><input type="checkbox" name="focus">Vue</label>
     </div>
     <div>
-        <h2>Comments and Suggestions?</h2>
-        <input type="text">
+        <h2 id="number">How Many Projects Should I Have?</h2>
+        <input id="number-label" type="number" min="3" max="15" placeholder="3-15">
     </div>
     <div>
-        <button type="submit">Submit</button>
+        <h2>Comments and Suggestions?</h2>
+        <textarea name="comment" id="comment" cols="50" rows="8"></textarea>
+    </div>
+    <div>
+        <button id="submit" type="submit">Submit</button>
     </div>
 </div>
+</form>
 </body>
 </html>

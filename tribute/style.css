@@ -18,19 +18,19 @@ p {
 footer {
     margin: 8% 32%;
 }
-#title {
+.preside {
+    margin: 0% 45%;
+}
+#open {
     display: grid;
     justify-content: center;
     align-content: center;
-    gap: 3px;
+    gap: 2px;
     grid-auto-flow: column;
 }
-#title .pict img {
+#image {
     border-radius: 30px;
 }
-.bio {
+#tribute-info {
     width: 550px;
-}
-.preside {
-    margin: 0% 45%;
 }

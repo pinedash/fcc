@@ -1,12 +1,9 @@
 header {
-    color: rgb(220, 220, 140);
-}
-
-
-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+div {
+    text-align: center;
 }
 
 .navbar {
@@ -15,10 +12,6 @@ header {
 
 .navbar li {
     display: inline-block;
-    padding: 0px 35px;
+    padding: 0px 50px;
 }
 
-.search {
-    justify-items: center;
-    align-items: center;
-}

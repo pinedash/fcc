@@ -6,6 +6,14 @@ div {
     text-align: center;
 }
 
+.detail {
+    text-align: start;
+}
+
+.details {
+    margin: 20% 20%;
+}
+
 .navbar {
     list-style: none;
 }
